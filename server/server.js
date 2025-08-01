@@ -51,3 +51,4 @@ connectDB().then(()=>{
 app.use((req, res) => {
   res.status(404).json({ msg: "Endpoint not found" });
 });
+
